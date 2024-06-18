@@ -1,0 +1,40 @@
+name: LikiaNetworkSurvival
+version: '${project.version}'
+main: likia.likianetwork.survival.main
+api-version: 1.16
+authors: [ Likia ]
+commands:
+  spawn:
+    description: spawn
+  util:
+    description: debug
+  survival:
+    description: survival
+  jail:
+    description: ?wut
+  test:
+    description: ?wut
+  mm:
+    description: menu
+  ui:
+    description: gui
+  purse:
+    description: purse money
+  npc:
+    description: ?wut
+  getblocknbt:
+    description: get block nbt
+  filedata:
+    description: dont ask
+  getnbt:
+    description: get held item nbt
+  menu:
+    description: menu
+  lang:
+    description: switch langauge
+  help:
+    description: replace vanilla
+  whitelst:
+    description: add whitelist, replace vanilla
+depend:
+  - NBTAPI
